@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+box-sizing: border-box;
+}
+body {
+margin: 0;
+}
+/* Style untuk header */
+.header {
+color: red;
+background-color: khaki;
+padding: 25px;
+text-align: center;
+}
+/* Style untuk menu navigasi atas/top navigation bar */
+.topnav {
+overflow: hidden;
+background-color: tomato;
+}
+/* Style untuk link-link topnav/topnav links */
+.topnav a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+/* Mengubah warna link pada saat mouse di link (hover) */
+.topnav a:hover {
+background-color: lemonchiffon;
+color: orange;
+}
+/* Membuat tiga kolom yang tidak sama di mana masing-masing kolom bersifat “float” terhadap yang
+lainnya */
+.column {
+float: left;
+padding: 10px;
+}
+/* Left and right column */
+.column.side {
+width: 25%;
+background-color : yellow;
+}
+/* Middle column */
+.column.middle {
+width: 50%;
+background-color : lightyellow;
+}
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+/* Style untuk footer */
+.footer {
+background-color: OrangeRed;
+color: yellow;
+padding: 10px;
+text-align: center;
+}
+</style>
+<link rel="stylesheet"href="CSS Web (1).css">
+</head>
+<body>
+<header class="bgimg" id="home">
+<br></br>
+<h1>Web Pembelajaran</h1>
+<br>
+<h5>By: Matthew Moreno Katoroy/XI4/26</h5>
+</header>
+<title>CSS Website Layout</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href= "Tampilan Layout.html">Home</a>
+        <div class="dropdown">
+        <button class="dropbtn">Informatika
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="Tampilan Layout Materi TIK.html">HTML</a>
+        <a href="Tampilan Layout Materi TIK - Copy.html">Python</a></div></div>
+        <div class="dropdown">
+        
+        </div>
+        <div class="dropdown">
+        <button class="dropbtn">Biologi
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="Tampilan Layout Materi Biologi.html">Organisasi Tingkat Sel</a>
+        <a href="Tampilan Layout Materi Biologi - Copy.html">Organisasi Tingkat Jaringan</a>
+        </div>
+        </div>
+        <div class="dropdown">
+        <button class="dropbtn">Sosiologi
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="Tampilan Layout Materi Sosiologi.html">Kelompok Sosial</a>
+        <a href="Tampilan Layout Materi Sosiologi - Copy.html">Diferensiasi Sosial</a>
+        </div>
+        </div>
+        <div class="dropdown">
+        <button class="dropbtn">PKN
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="Materi_PPKN.html">Pancasila</a>
+        <a href="Materi_PPKN(2).html">Hak dan kewajiban</a>
+        </div>
+        </div>
+        <div class="dropdown">
+        <button class="dropbtn">Sejarah
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="Materi_Sejarah.html">Kolonialisme dan Imperialisme</a>
+            <a href="Materi_Sejarah.html">Sistem Tanam Paksa</a>
+        </div>
+        </div>
+        <a href="Moreno_inf3_21_biodata.html">Tentang Saya</a>
+        </div>
+<br>
+<div class="row">
+<div class="column side">
+<center><h2>Contoh Penggunaan Phyton</h2></center>
+<center><p>Berikut adalah contoh penggunaan Python:</center>
+    <ul>
+    
+<li>Program untuk menampilkan "Hello, World!" pada konsol:
+<b>print("Hello, World!")</b></li>
+
+<li>Program untuk menjumlahkan dua angka yang dimasukkan oleh pengguna:
+<b>angka1 = float(input("Masukkan angka pertama: "))
+angka2 = float(input("Masukkan angka kedua: "))
+sum = angka1 + angka2
+print("Hasil penjumlahan {0} dan {1} adalah {2}".format(angka1, angka2, sum))</b></li>
+
+<li>Program untuk menghitung akar kuadrat dari angka yang dimasukkan oleh pengguna:
+<b>angka = float(input("Masukkan angka: "))
+akar = angka ** 0.5
+print("Akar kuadrat dari {0} adalah {1}".format(angka, akar))</b></li>
+
+<li>Program untuk menukar nilai dari dua variabel:
+<b>x = input("Masukkan nilai x: ")
+y = input("Masukkan nilai y: ")
+tukar = x
+x = y
+y = tukar
+print("Setelah ditukar, nilai x adalah {0} dan nilai y adalah {1}".format(x, y))
+
+Program untuk menentukan apakah sebuah bilangan adalah bilangan prima atau tidak:
+angka = int(input("Masukkan angka: "))
+if angka > 1:
+    for i in range(2, angka):
+        if (angka % i) == 0:
+            print(angka, "bukan bilangan prima")
+            break
+    else:
+        print(angka, "adalah bilangan prima")
+else:
+    print(angka, "bukan bilangan prima")</b></li>
+  </ul></p>
+</div>
+<div class="column middle">
+<center><h2>Python</h2></center>
+<center><p><b>Python</b> adalah bahasa pemrograman yang dikembangkan oleh Guido van Rossum pada tahun 1991 di CWI, Amsterdam sebagai kelanjutan dari bahasa pemrograman ABC. Python adalah bahasa pemrograman tingkat tinggi, yang ditafsirkan dan mudah dipelajari. Python memiliki sintaks yang mudah dibaca dan dipahami, sehingga memudahkan pengembang untuk menulis kode program dengan ringkas. Python juga memiliki library yang sangat banyak dan luas, yang memuat beragam perlengkapan dan fungsionalitas, sehingga kemudahan membangun program menjadi salah satu yang ditawarkan oleh Python. Python banyak digunakan dalam aplikasi web, pengembangan perangkat lunak, ilmu data, dan machine learning (ML). Python juga digunakan untuk mengotomatiskan tugas dan melakukan analisis data. Python merupakan bahasa pemrograman yang sangat populer dan banyak digunakan oleh para pengembang di seluruh dunia
+    </p></center>
+<center><p>Fungsi utama Python adalah sebagai bahasa pemrograman yang dapat digunakan untuk membangun situs web, mengotomatiskan tugas, melakukan analisis data, pengembangan perangkat lunak, dan machine learning (ML). Python juga digunakan untuk membuat aplikasi, otomatisasi, dan administrasi. Python memiliki banyak fungsi yang dapat digunakan untuk mengefisienkan program serta memudahkan programmer dalam menjalankan program besar. Fungsi dalam Python merupakan kumpulan perintah yang dikelompokkan menjadi satu, sehingga memungkinkan programmer untuk mengefisienkan penulisan program, terutama program besar. Dengan menggunakan fungsi, programmer dapat memecah program menjadi beberapa bagian serta fungsinya dipanggil sewaktu-waktu ketika dibutuhkan, sehingga membuat program lebih terstruktur. Beberapa fungsi Python yang sering digunakan antara lain: type(), enumerate(), dan eval()</p>
+</center></div>
+<div class="column side">
+<h2>Tag-Tag Phyton</h2>
+<p><ul>
+    <li><b>color</b>: Digunakan untuk mengatur warna teks.</li>
+        <li><B>print()</B>: Digunakan untuk mencetak output ke konsol.</li>
+        <li><B>input()</B>: Digunakan untuk menerima input dari pengguna.</li>
+        <li><B>if/else</B>: Digunakan untuk membuat kondisi pada program.</li>
+        <li><B>text-align</B>: Digunakan untuk mengatur posisi teks, seperti rata kiri, rata kanan, atau rata tengah.</li>
+        <li><b>for/while</b>: Digunakan untuk membuat perulangan pada program.</li>
+        <li><b>def</b>: Digunakan untuk mendefinisikan fungsi pada program.</li>
+        <li> <b>import</b>: Digunakan untuk mengimpor modul atau pustaka pada program.</li>
+        <li><b>try/except</b>: Digunakan untuk menangani kesalahan atau error pada program.</li>
+        <li><b>class</b>: Digunakan untuk membuat kelas pada program.float</li>
+        <li><b>with</b>: Digunakan untuk membuka dan menutup file secara otomatis.</li>
+</ul></p>
+</div>
+</div>
+<div class="footer">
+<justify><p>Sumber :
+    <uL>
+        https://www.niagahoster.co.id/blog/pengertian-css/
+        https://aufaroot18.medium.com/tutorial-css-lengkap-indonesia-73386cd6eb29
+       https://webdesign.tutsplus.com/id/the-30-css-selectors-you-must-memorize--net-16048
+        https://codekey.id/html-css/paragraf-html/
+        https://www.hostinger.co.id/tutorial/perbedaan-inline-css-external-css-dan-internal-css
+     
+    </uL>
+</p></justify>
+</div>
+</div>

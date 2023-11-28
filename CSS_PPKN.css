@@ -1,0 +1,223 @@
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: lightgoldenrodyellow;
+}
+.navbar {
+overflow: hidden;
+background-color: #333;
+padding-left:325px;
+}
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+
+}
+.dropdown {
+float: left;
+overflow: hidden;
+}
+.dropdown .dropbtn {
+font-size: 16px;
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: mediumseagreen;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("backgorund\ web.jpg");
+    height: 180px;
+  }
+h1{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+}
+h5{
+    margin-left: 850px;
+    color: white;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("pngtree-red-background-hd-design-vector-picture-image_2021828.jpg");
+    height: 180px;
+}
+	
+* {
+    box-sizing: border-box;
+}
+
+#mainpage {
+    background-image: url('mainbg.png');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(4, 15, 22, 0.8);
+    background-blend-mode: multiply;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: calc( 100vh - 160px );
+    align-items: center;
+    border-radius: border-box;
+}
+
+.wrap {
+    padding: 0.7rem;
+	color: black;
+}
+
+
+
+.subjudul {
+    font-size: 30px;
+    margin: 20px 0 10px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: rgba(4, 15, 22, 1);
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0 0.5rem;
+}
+
+h2  {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+h3  {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    color: black;
+}
+
+p {
+    font-size: 25px;
+}
+
+section {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0.5rem 0;
+}
+
+section p, section h2, section li, tr, td, sup, sub, strong {
+    color: #040F16 !important;
+}
+
+strong {
+    display: block;
+    margin: 8px 0;
+}
+
+xmp {
+    background-color: rgb(49, 49, 49);
+    font-size: 20px;
+    font-family: monospace;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+b {
+    color: rgba(0,18,66,1);
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.5rem;
+}
+
+table {
+    margin: 0.5rem;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.half {
+    min-width: 500px;
+    padding: 1rem;
+}
+
+.profileImg {
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .profile {
+      flex-direction: column;
+    }
+  }

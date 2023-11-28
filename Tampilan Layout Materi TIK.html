@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+box-sizing: border-box;
+}
+body {
+margin: 0;
+}
+/* Style untuk header */
+.header {
+color: red;
+background-color: khaki;
+padding: 25px;
+text-align: center;
+}
+/* Style untuk menu navigasi atas/top navigation bar */
+.topnav {
+overflow: hidden;
+background-color: tomato;
+}
+/* Style untuk link-link topnav/topnav links */
+.topnav a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+/* Mengubah warna link pada saat mouse di link (hover) */
+.topnav a:hover {
+background-color: lemonchiffon;
+color: orange;
+}
+/* Membuat tiga kolom yang tidak sama di mana masing-masing kolom bersifat “float” terhadap yang
+lainnya */
+.column {
+float: left;
+padding: 10px;
+}
+/* Left and right column */
+.column.side {
+width: 25%;
+background-color : yellow;
+}
+/* Middle column */
+.column.middle {
+width: 50%;
+background-color : lightyellow;
+}
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+/* Style untuk footer */
+.footer {
+background-color: OrangeRed;
+color: yellow;
+padding: 10px;
+text-align: center;
+}
+</style>
+<link rel="stylesheet"href="CSS Web (1).css">
+</head>
+<body>
+<header class="bgimg" id="home">
+<br></br>
+<h1>Web Pembelajaran</h1>
+<br>
+<h5>By: Matthew Moreno Katoroy/XI4/26</h5>
+</header>
+<title>CSS Website Layout</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href= "Tampilan Layout.html">Home</a>
+        <div class="dropdown">
+        <button class="dropbtn">Informatika
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="Tampilan Layout Materi TIK.html">HTML</a>
+        <a href="Tampilan Layout Materi TIK - Copy.html">Python</a></div></div>
+        <div class="dropdown">
+        
+        </div>
+        <div class="dropdown">
+        <button class="dropbtn">Biologi
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="Tampilan Layout Materi Biologi.html">Organisasi Tingkat Sel</a>
+        <a href="Tampilan Layout Materi Biologi - Copy.html">Organisasi Tingkat Jaringan</a>
+        </div>
+        </div>
+        <div class="dropdown">
+        <button class="dropbtn">Sosiologi
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="Tampilan Layout Materi Sosiologi.html">Kelompok Sosial</a>
+        <a href="Tampilan Layout Materi Sosiologi - Copy.html">Diferensiasi Sosial</a>
+        </div>
+        </div>
+        <div class="dropdown">
+        <button class="dropbtn">PKN
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="Materi_PPKN.html">Pancasila</a>
+        <a href="Materi_PPKN(2).html">Hak dan kewajiban</a>
+        </div>
+        </div>
+        <div class="dropdown">
+        <button class="dropbtn">Sejarah
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="Materi_Sejarah.html">Kolonialisme dan Imperialisme</a>
+            <a href="Materi_Sejarah.html">Sistem Tanam Paksa</a>
+        </div>
+        </div>
+        <a href="Moreno_inf3_21_biodata.html">Tentang Saya</a>
+        </div>
+<br>
+<div class="row">
+<div class="column side">
+<h2>Tag-tag HTML</h2>
+<p><ul>
+    <li><B>!DOCTYPE</B>: Tag untuk menentukan tipe dokumen."</li>
+    <li><B>html</B>: Tag untuk membuat sebuah dokumen HTML.</li>
+    <li><B>title</B>: Tag untuk membuat judul dari sebuah halaman.</li>
+    <li><b>body</b>: Tag untuk membuat tubuh dari sebuah halaman.</li>
+    <li><b>h1 to h6</b>: Tag untuk membuat heading.</li>
+    <li><b>p</b>: Tag untuk membuat paragraf.</li>
+    <li><b>hr</b>: Tag untuk membuat perubahan dasar kata didalam isi.</li>
+<li><b>!--...--:</b> Tag untuk membuat komentar.</li>
+<li><b>b</b>: Tag untuk membuat huruf bercetak tebal.</li>
+<li><b>bdi</b>: Mengisolasi bagian dari teks yang dapat diformat dalam arah yang berbeda dari teks lain di luarnya (tag baru HTML5).</li>
+<li><b>center</b>: Tag untuk membuat jajaran teks menjadi ditengah (tidak disupport lagi di HTML5).</li>
+  </ul></p>
+</div>
+<div class="column middle">
+<center><h2>CSS & HTML</h2></center>
+<center><p><b>HTML (Hypertext Markup Language)</b> adalah bahasa markup standar yang digunakan untuk membuat struktur halaman website agar dapat ditampilkan pada web browser. HTML memungkinkan user membuat dan menyusun bagian heading, paragraf, blockquote, dan link atau tautan untuk halaman web serta aplikasi. HTML bukanlah bahasa pemrograman karena tidak bisa memberikan fungsi yang dinamis. HTML adalah standar Internet yang dikendalikan oleh World Wide Web Consortium (W3C). HTML pertama kali dibuat oleh Tim Berners-Lee, seorang ahli fisika di lembaga penelitian CERN yang berlokasi di Swiss pada tahun 1990. Versi pertama HTML terdiri dari 18 tag. Saat ini terdapat 140 HTML tag walaupun sebagian sudah tak didukung oleh versi terbaru browsernya. Fungsi utama HTML adalah untuk membangun struktur halaman web, mulai dari membuat header, footer, navigasi, hingga kontennya. HTML merupakan pondasi awal dalam menyusun kerangka halaman web secara terstruktur sebelum membahas terkait tampilan desain dan sisi fungsionalitas.
+    </p></center>
+<center><p><b>CSS (Cascading Style Sheets)</b> adalah bahasa stylesheet yang digunakan untuk mengatur tampilan atau styling dari halaman web yang dibuat dengan HTML. CSS memungkinkan user untuk mengatur warna, font, ukuran, layout, dan efek visual lainnya pada elemen HTML. CSS memisahkan antara konten dan tampilan pada halaman web, sehingga memudahkan user untuk mengubah tampilan halaman web tanpa harus mengubah kontennya. CSS pertama kali diperkenalkan pada tahun 1996 oleh World Wide Web Consortium (W3C). Fungsi utama CSS adalah untuk memperindah tampilan halaman web dan meningkatkan pengalaman pengguna. CSS juga memungkinkan user untuk membuat halaman web yang responsif dan dapat diakses pada berbagai perangkat, seperti desktop, tablet, dan smartphone. beberapa fungsi dan kegunaan CSS seperti Memperindah tampilan halaman web,Meningkatkan pengalaman pengguna, dan lain sebagainya.</p>
+</center></div>
+<div class="column side">
+<h2>Tag-Tag CSS</h2>
+<p><ul>
+    <li>color: Digunakan untuk mengatur warna teks.</li>
+        <li><B>font-size</B>: Digunakan untuk mengatur ukuran font.</li>
+        <li><B>font-family</B>: Digunakan untuk mengatur jenis font.</li>
+        <li><B>background-color</B>: Digunakan untuk mengatur warna latar belakang.</li>
+        <li><B>text-align</B>: Digunakan untuk mengatur posisi teks, seperti rata kiri, rata kanan, atau rata tengah.</li>
+        <li><B>margin</B>: Digunakan untuk mengatur jarak antara elemen dengan elemen lainnya.</li>
+        <li><B>padding</B>: Digunakan untuk mengatur jarak antara konten dengan batas elemen.</li>
+        <li> <B>border</B>: Digunakan untuk mengatur garis batas pada elemen.</li>
+        <li><B>display</B>: Digunakan untuk mengatur tampilan elemen, seperti inline, block, atau none.</li>
+        <li><B>float</B>: Digunakan untuk mengatur posisi elemen, seperti mengapungkannya ke kiri atau ke kanan.</li>
+</ul></p>
+</div>
+</div>
+<div class="footer">
+<justify><p>Sumber :
+    <uL>
+        https://www.niagahoster.co.id/blog/pengertian-css/
+        https://aufaroot18.medium.com/tutorial-css-lengkap-indonesia-73386cd6eb29
+       https://webdesign.tutsplus.com/id/the-30-css-selectors-you-must-memorize--net-16048
+        https://codekey.id/html-css/paragraf-html/
+        https://www.hostinger.co.id/tutorial/perbedaan-inline-css-external-css-dan-internal-css
+     
+    </uL>
+</p></justify>
+</div>
+</div>
